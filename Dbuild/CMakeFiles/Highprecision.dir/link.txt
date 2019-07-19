@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Highprecision.dir/main.cpp.o CMakeFiles/Highprecision.dir/src/Add.cpp.o CMakeFiles/Highprecision.dir/src/Sub.cpp.o CMakeFiles/Highprecision.dir/src/Mul.cpp.o  -o Highprecision 

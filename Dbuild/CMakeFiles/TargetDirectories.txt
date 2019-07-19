@@ -1,0 +1,3 @@
+/home/zhihui/Highprecision/Dbuild/CMakeFiles/rebuild_cache.dir
+/home/zhihui/Highprecision/Dbuild/CMakeFiles/Highprecision.dir
+/home/zhihui/Highprecision/Dbuild/CMakeFiles/edit_cache.dir

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhihui/Highprecision/include/Add.h
+DataStructs.h
+/home/zhihui/Highprecision/include/DataStructs.h
+
+/home/zhihui/Highprecision/include/DataStructs.h
+
+/home/zhihui/Highprecision/include/Mul.h
+DataStructs.h
+/home/zhihui/Highprecision/include/DataStructs.h
+string
+-
+
+/home/zhihui/Highprecision/include/Sub.h
+DataStructs.h
+/home/zhihui/Highprecision/include/DataStructs.h
+
+/home/zhihui/Highprecision/main.cpp
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+include/DataStructs.h
+/home/zhihui/Highprecision/include/DataStructs.h
+include/Add.h
+/home/zhihui/Highprecision/include/Add.h
+include/Sub.h
+/home/zhihui/Highprecision/include/Sub.h
+include/Mul.h
+/home/zhihui/Highprecision/include/Mul.h
+random
+-
+string
+-
+
