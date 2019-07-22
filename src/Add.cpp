@@ -4,7 +4,7 @@
 #include <iostream>
 #include "../include/Add.h"
 #include "../include/DataStructs.h"
-#include "../include/GetElem.h"
+ #include "../include/GetElem.h"
 using namespace std;
 
 LinkList Add::add(LinkList &First,LinkList &Second,int firstLength,int secondLength)
@@ -14,6 +14,8 @@ LinkList Add::add(LinkList &First,LinkList &Second,int firstLength,int secondLen
 
       int Diff = abs(firstLength-secondLength);
       cout<<"Diff: "<<Diff<<endl;
+
+      cout<<""<<GetElem(First,0)<<endl;
 
       // 相同长度的计算
       if(Diff==0)
@@ -143,7 +145,7 @@ string Add::partAdd(LinkList &First, LinkList &Second, int first, int second, LN
             {
                 cout<<"Number1_Str[i] "<<Number1_Str[i]<<endl;
 
-                int data = temp.next->data;
+                int data = atoi(temp.next->data.c_str());
 
                 cout<<"data: "<<data<<endl;
 
@@ -190,7 +192,7 @@ string Add::partAdd(LinkList &First, LinkList &Second, int first, int second, LN
             {
                 temp_str+='0';
 
-                int data = temp.next->data;
+                int data = atoi(temp.next->data.c_str());
 
                 cout<<"data: "<<data<<endl;
 
@@ -324,7 +326,7 @@ string Add::DiffAdd(LinkList &First, LinkList &Second, int first, int second, LN
                             {
                                 Number1_Str[i+1]==0;
 
-                                int data = temp.next->data;
+                                int data = atoi(temp.next->data.c_str());
 
                                 if( data >=1 && data<=9)
                                 {
@@ -347,7 +349,7 @@ string Add::DiffAdd(LinkList &First, LinkList &Second, int first, int second, LN
                             {
                                 Number1_Str[i+1]-=10;
 
-                                int data = temp.next->data;
+                                int data = atoi(temp.next->data.c_str());
 
                                 if( data >=1 && data<=9)
                                 {
@@ -423,7 +425,7 @@ string Add::DiffAdd(LinkList &First, LinkList &Second, int first, int second, LN
             {
                 cout<<"Number1_Str[i] "<<Number1_Str[i]<<endl;
 
-                int data = temp.next->data;
+                int data = atoi(temp.next->data.c_str());
 
                 cout<<"data: "<<data<<endl;
 
@@ -469,7 +471,7 @@ string Add::DiffAdd(LinkList &First, LinkList &Second, int first, int second, LN
             {
                 temp_str+='0';
 
-                int data = temp.next->data;
+                int data = atoi(temp.next->data.c_str());
 
                 cout<<"data: "<<data<<endl;
 

@@ -19,7 +19,7 @@ int GetElem(LinkList &L, int i)
         p=p->next;
         ++j;
     }
-    return p->data;
+    return atoi(p->data.c_str());
 }
 
 #endif //HIGHPRECISION_INCLUDE_GETELEM_H_

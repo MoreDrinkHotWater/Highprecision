@@ -49,9 +49,10 @@ int main() {
     first_length = substring(first, first_length);
     second_length =  substring(second, second_length);
 
+
 //    std::cout<<"first_length: "<<first_length<<std::endl;
 //    std::cout<<"first: "<<first.length()<<std::endl;
-//
+
 //    std::cout<<"second_length: "<<second_length<<std::endl;
 //    std::cout<<"second: "<<second.length()<<std::endl;
 
@@ -140,7 +141,7 @@ void output(LinkList &L)
     p=L->next;
     while(p!=NULL)
     {
-        printf("%d\n",p->data);
+        printf("%d\n",atoi(p->data.c_str()));
         p=p->next;
     }
 }

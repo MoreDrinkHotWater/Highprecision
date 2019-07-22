@@ -11,34 +11,22 @@ DataStructs.h
 /home/zhihui/Highprecision/include/DataStructs.h
 
 /home/zhihui/Highprecision/include/DataStructs.h
-
-/home/zhihui/Highprecision/include/Mul.h
-DataStructs.h
-/home/zhihui/Highprecision/include/DataStructs.h
 string
 -
 
-/home/zhihui/Highprecision/include/Sub.h
-DataStructs.h
-/home/zhihui/Highprecision/include/DataStructs.h
-
-/home/zhihui/Highprecision/main.cpp
+/home/zhihui/Highprecision/include/GetElem.h
 iostream
 -
-stdlib.h
--
-stdio.h
--
-include/DataStructs.h
+../include/DataStructs.h
 /home/zhihui/Highprecision/include/DataStructs.h
-include/Add.h
+
+/home/zhihui/Highprecision/src/Add.cpp
+iostream
+-
+../include/Add.h
 /home/zhihui/Highprecision/include/Add.h
-include/Sub.h
-/home/zhihui/Highprecision/include/Sub.h
-include/Mul.h
-/home/zhihui/Highprecision/include/Mul.h
-random
--
-string
--
+../include/DataStructs.h
+/home/zhihui/Highprecision/include/DataStructs.h
+../include/GetElem.h
+/home/zhihui/Highprecision/include/GetElem.h
 
